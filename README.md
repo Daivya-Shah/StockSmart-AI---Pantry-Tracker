@@ -95,9 +95,3 @@ firebase.js             # Firebase + Firestore initialization
 When you add an item to your pantry, it gets saved to Firestore with its name, quantity, and expiration date. The dashboard reads from Firestore on load and updates in real time as you make changes.
 
 When you click "Find Recipes," the app sends your full inventory list to the OpenAI API. The prompt instructs the model to prioritize ingredients that are expiring soon or in low supply, so the suggestions are actually useful rather than generic.
-
----
-
-## Built By
-
-[Daivya Shah](https://daivyashah.com/)
